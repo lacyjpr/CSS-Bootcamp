@@ -23,9 +23,9 @@ Frenzy rule: You can claim one week off after the frenzy, not one week per extra
 - [ ] [this theme](https://blackrockdigital.github.io/startbootstrap-resume/), include all features (hover effects, animations, pages, etc)
 - [ ] [this theme](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/), include all features (hover effects, animations, pages, etc)
 - [ ] [this theme](https://webthemez.com/demo/ballet-one-page-free-website-template/), include all features (hover effects, animations, pages, etc)
-- [this theme](https://webthemez.com/demo/delta-corporate-material-design-bootstrap-html-template/index.html), include all features (hover effects, animations, pages, etc).
+- [ ] [this theme](https://webthemez.com/demo/delta-corporate-material-design-bootstrap-html-template/index.html), include all features (hover effects, animations, pages, etc).
 - [ ] [this theme](https://blackrockdigital.github.io/startbootstrap-creative/), include all features (hover effects, animations, pages, etc)
-- [this theme](https://blackrockdigital.github.io/startbootstrap-coming-soon/), include all features (hover effects, animations, pages, etc)
+- [ ] [this theme](https://blackrockdigital.github.io/startbootstrap-coming-soon/), include all features (hover effects, animations, pages, etc)
 - [ ] [this theme](https://webthemez.com/demo/lookup-interior-design-bootstrap-website-template/), include all features (hover effects, animations, pages, etc)
 - [ ] [this theme](https://webthemez.com/demo/flavour-restaurant-html5-responsive-web-template/), include all features (hover effects, animations, pages, etc)
 - [ ] [this theme](https://webthemez.com/demo/fine-best-app-landing-page-free-web-template/), include all features (hover effects, animations, pages, etc)
