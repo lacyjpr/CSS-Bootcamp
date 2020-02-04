@@ -1,4 +1,4 @@
-header {
+.header {
   color: pink;
   background-color: red;
   grid-column: 1 / 13;
@@ -7,18 +7,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
 }
 
-header__title {
+.header__title {
   margin-left: 30vw;
   font-weight: bold;
 }
 
-button-med {
+.button-med {
   margin-right: 30px;
 }
 
-hero {
-  color: brown;
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url("./assets/blue-water.jpg");
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
