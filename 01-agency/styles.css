@@ -1,14 +1,24 @@
 header {
   color: pink;
-  min-height: 5vh;
+  background-color: red;
+  grid-column: 1 / 13;
+  grid-row: 1 / 2;
+  height: 50px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  justify-content: center;
-  /* maybe */
-  font-size: calc(10px + 2vmin);
+  padding: 0.5rem 1rem;
+}
+
+header__title {
+  margin-left: 30vw;
+  font-weight: bold;
+}
+
+button-med {
+  margin-right: 30px;
 }
 
 hero {
+  color: brown;
 }
