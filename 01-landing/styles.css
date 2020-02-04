@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  color: black;
+  background-color: white;
+  grid-column: 1 / 13;
+  grid-row: 1 / 2;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  margin-left: 2vw;
+  font-weight: bold;
+}
+
+.button__med {
+  margin-right: 30px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero__image {
+  width: 100%;
+  height: auto;
+}
+.hero__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
