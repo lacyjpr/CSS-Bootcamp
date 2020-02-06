@@ -13,8 +13,8 @@
       <h1 class="header__title">Start Bootstrap</h1>
       <button class="button__med">Sign in</button>
     </header>
-    <!-- Hero -->
 
+    <!-- Hero -->
     <section class="hero">
       <div class="hero__container">
         <img
@@ -23,13 +23,22 @@
           src="./assets/blue-water.jpg"
         />
 
-        <h1 class="hero__text">
+        <div class="hero__text">
           Build a landing page for your business or project and generate more
           leads!
-        </h1>
-        <button class="hero__button button__med">
-          Sign Up!
-        </button>
+        </div>
+        <form class="hero__signup" action="">
+          <input
+            type="email"
+            id="email"
+            size="20"
+            placeholder="Your email..."
+            required
+          />
+          <button class="hero__button button__med">
+            Sign Up!
+          </button>
+        </form>
       </div>
     </section>
 
