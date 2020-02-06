@@ -34,8 +34,22 @@ body {
   height: auto;
 }
 .hero__text {
+  font-size: 12px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__signup {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.hero__button {
+  margin: auto;
+}
+
+/* Highlights */
