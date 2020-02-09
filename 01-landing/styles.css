@@ -37,7 +37,7 @@ body {
   color: white;
   font-size: 14px;
   padding: 8px 8px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .header__button:hover,
@@ -72,19 +72,46 @@ body {
 .hero__signup {
   width: 85%;
   position: absolute;
-  top: 70%;
+  top: 71%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .hero__email {
-  width: 85%;
+  width: 93%;
+  margin: 50px 0 10px 0;
+  padding: 0 0 0 18px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 18px;
+  height: 45px;
+}
+
+.hero__email:focus {
+  background-color: white;
 }
 
 .hero__button {
-  width: 89%;
+  width: 100%;
   margin: 0;
+  background: #007bff;
+  border: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 14px 8px;
+  border-radius: 3px;
 }
+
+.hero__button:hover,
+:focus {
+  background: #024893;
+}
+
+.hero__button:active {
+  box-shadow: 0 0 3px 2px #7bb9fc;
+}
+
 
 /* Highlights */
 /* Features */
