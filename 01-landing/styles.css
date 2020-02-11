@@ -177,24 +177,23 @@ body {
 /* <!-- Advantages --> */
 
 .advantages {
-  display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, minmax(50px, auto));
+  display: flex;
+  flex-direction: column;
 }
 
-.advantage__image-one {
+.advantage__first {
   background-size: cover;
-  min-height: 500px;
+  min-height: 30rem;
   background-image: url(./assets/cellphone.jpg);
 }
 
-.advantage__image-two {
+.advantage__second {
   background-size: cover;
-  min-height: 200vh;
+  min-height: 30rem;
   background-image: url(./assets/code.jpg);
 }
 
-.advantage__image-three {
+.advantage__third {
   background-size: cover;
   min-height: 30rem;
   background-image: url(./assets/legos.jpg);
