@@ -176,6 +176,29 @@ body {
 
 /* <!-- Advantages --> */
 
+.advantages {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, minmax(50px, auto));
+}
+
+.advantage__image-one {
+  background-size: cover;
+  min-height: 500px;
+  background-image: url(./assets/cellphone.jpg);
+}
+
+.advantage__image-two {
+  background-size: cover;
+  min-height: 200vh;
+  background-image: url(./assets/code.jpg);
+}
+
+.advantage__image-three {
+  background-size: cover;
+  min-height: 30rem;
+  background-image: url(./assets/legos.jpg);
+}
 
 
 
