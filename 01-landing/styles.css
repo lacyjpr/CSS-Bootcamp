@@ -7,6 +7,21 @@
   --heading-size: 20px;
 }
 
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: black
+}  
+
 html,
 body {
   margin: 0 auto;
@@ -112,9 +127,7 @@ body {
   box-shadow: 0 0 3px 2px #7bb9fc;
 }
 
-
-/* Highlights */
-/* Features */
-/* Testimonials */
-/* Contact */
-/* Footer */
+/* <!-- Advantages --> */
+/* <!-- Testimonials --> */
+/* <!-- Contact --> */
+/* <!-- Footer --> */
