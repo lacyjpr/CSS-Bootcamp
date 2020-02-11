@@ -1,6 +1,6 @@
 /* prettier-ignore */
 @import url(
-  https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap
+  https://fonts.googleapis.com/css?family=Lato:300,400,500|Roboto:300,400,500&display=swap
 );
 
 :root {
@@ -8,19 +8,21 @@
 }
 
 .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 50px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    color: black
-}  
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  /* font-size: 24px;  Preferred icon size */
+  font-size: 96px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.material-icons.feature__icon { font-size: 96px; color: dodgerblue; }
 
 html,
 body {
@@ -68,6 +70,7 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  margin-bottom: 20vh;
 }
 
 .hero__image {
@@ -126,8 +129,67 @@ body {
 .hero__button:active {
   box-shadow: 0 0 3px 2px #7bb9fc;
 }
+/* <!-- Features--> */
+
+.features {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  margin-top: 100px;
+  width: 80vw;
+  margin: auto;
+  padding: auto;
+}
+
+.feature {
+  height: 60vh;
+  font-weight: 100;
+  font-size: 20px
+}
+
+.feature__icon {
+  height: 100px;
+  font-size: 96px;
+  color: dodgerblue;
+  margin-bottom: 10px;
+}
+
+.feature__icon:hover,:focus {
+  margin-bottom: 10px;
+  font-size: 105px;
+  
+}
+
+.feature__headline {
+  font-size: 28px;
+  font-weight: 440;
+  margin-bottom: .75rem;
+}
+
+.feature__description {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  line-height: 2rem;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 
 /* <!-- Advantages --> */
 /* <!-- Testimonials --> */
 /* <!-- Contact --> */
 /* <!-- Footer --> */
+
+
+/* <!-- Media Queries --> */
+@media (min-width: 992px) {
+  .features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .feature {
+    width: 30vw;
+  }
+}
